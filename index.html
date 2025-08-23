@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Frames → Video: Order‑based Demo</title>
+  <title>Frames → GIF: Order‑based Demo</title>
   <style>
     :root { --bg:#0b0c10; --panel:#111318; --ink:#e6e7ea; --muted:#a3a6ad; --accent:#5cc8ff; --border:#22252d; }
     html,body{height:100%}
@@ -30,7 +30,7 @@
     .hint{font-size:13px;color:var(--muted)}
 
     .player{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:12px}
-    video{width:100%;max-height:60vh;border-radius:10px;background:#000}
+    .player img{width:100%;max-height:60vh;border-radius:10px;background:#000;display:block}
     .order{font-size:13px;color:var(--muted);margin:8px 0 0}
 
     footer{margin:30px 0 10px;color:var(--muted);font-size:12px}
@@ -42,39 +42,39 @@
   <!--
     📂 Required files you must add to your repo alongside this index.html:
 
-    assets/images/img1.jpg
-    assets/images/img2.jpg
-    assets/images/img3.jpg
+    assets/images/img1.png
+    assets/images/img2.png
+    assets/images/img3.png
 
-    assets/videos/video-123.mp4
-    assets/videos/video-132.mp4
-    assets/videos/video-213.mp4
-    assets/videos/video-231.mp4
-    assets/videos/video-312.mp4
-    assets/videos/video-321.mp4
+    assets/videos/video-123.gif
+    assets/videos/video-132.gif
+    assets/videos/video-213.gif
+    assets/videos/video-231.gif
+    assets/videos/video-312.gif
+    assets/videos/video-321.gif
 
-    File naming rule: when the slots (1→2→3) hold images with IDs [1,2,3], we load assets/videos/video-123.mp4, etc.
+    File naming rule: when the slots (1→2→3) hold images with IDs [1,2,3], we load assets/videos/video-123.gif, etc.
     Change the mapping in JS below if you want custom filenames.
   -->
 
   <div class="wrap">
     <header>
-      <h1>🧩 Arrange the 3 frames → see a different video</h1>
+      <h1>🧩 Arrange the 3 frames → see a different GIF</h1>
       <div class="hint">Drag from the <span class="accent">Image Tray</span> into the three positions.</div>
     </header>
 
     <h3 class="hint" style="margin:0 0 6px">Image Tray</h3>
     <div id="palette" class="palette" aria-label="Image tray (drag items from here)">
       <div class="card" draggable="true" data-id="1" aria-grabbed="false">
-        <img src="assets/images/img1.jpg" alt="Image 1" />
+        <img src="assets/images/img1.png" alt="Image 1" />
         <div class="label">Image 1</div>
       </div>
       <div class="card" draggable="true" data-id="2" aria-grabbed="false">
-        <img src="assets/images/img2.jpg" alt="Image 2" />
+        <img src="assets/images/img2.png" alt="Image 2" />
         <div class="label">Image 2</div>
       </div>
       <div class="card" draggable="true" data-id="3" aria-grabbed="false">
-        <img src="assets/images/img3.jpg" alt="Image 3" />
+        <img src="assets/images/img3.png" alt="Image 3" />
         <div class="label">Image 3</div>
       </div>
     </div>
@@ -94,31 +94,28 @@
 
     <div class="actions">
       <button id="reset">Reset</button>
-      <div id="orderInfo" class="order">Drag images into all three positions to preview the video.</div>
+      <div id="orderInfo" class="order">Drag images into all three positions to preview the GIF.</div>
     </div>
 
     <div class="player">
-      <video id="resultVideo" controls preload="metadata" playsinline>
-        <source src="" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+      <img id="resultGif" alt="Result animation" />
     </div>
 
     <footer>
-      <div>Tip: encode videos as H.264 (yuv420p) MP4 for best compatibility.</div>
-      <div>Example ffmpeg: <code>ffmpeg -r 24 -i frame%03d.png -pix_fmt yuv420p -c:v libx264 -preset veryfast assets/videos/video-123.mp4</code></div>
+      <div>Note: GIFs are large and have no sound. For better quality/size, consider MP4.</div>
+      <div>From frames to GIF: <code>ffmpeg -r 24 -i frame%03d.png -vf scale=640:-1:flags=lanczos -loop 0 assets/videos/video-123.gif</code></div>
     </footer>
   </div>
 
   <script>
-    // Optional: set this to a mapping if your video filenames don't follow the pattern "video-123.mp4".
-    // Example: const VIDEO_MAP = { "132": "assets/videos/custom-name.mp4" };
+    // Optional: set this to a mapping if your GIF filenames don't follow the pattern "video-123.gif".
+    // Example: const VIDEO_MAP = { "132": "assets/videos/custom-name.gif" };
     const VIDEO_MAP = null;
 
     const palette = document.getElementById('palette');
     const slots = Array.from(document.querySelectorAll('.slot'));
     const info = document.getElementById('orderInfo');
-    const video = document.getElementById('resultVideo');
+    const gifEl = document.getElementById('resultGif');
 
     // --- Drag helpers ---
     function handleDragStart(e){
@@ -175,21 +172,13 @@
       if (order.every(Boolean)){
         const key = order.join('');
         info.textContent = `Order: ${order.join(' → ')}`;
-        const src = (VIDEO_MAP && VIDEO_MAP[key]) ? VIDEO_MAP[key] : `assets/videos/video-${key}.mp4`;
-        const source = video.querySelector('source');
-        if (source.src !== new URL(src, location.href).href){
-          source.src = src;
-          video.load();
-          video.play().catch(()=>{});
+        const src = (VIDEO_MAP && VIDEO_MAP[key]) ? VIDEO_MAP[key] : `assets/videos/video-${key}.gif`;
+        if (gifEl.src !== new URL(src, location.href).href){
+          gifEl.src = src;
         }
       } else {
-        info.textContent = 'Drag images into all three positions to preview the video.';
-        const source = video.querySelector('source');
-        if (source.src){
-          video.pause();
-          source.src = '';
-          video.load();
-        }
+        info.textContent = 'Drag images into all three positions to preview the GIF.';
+        gifEl.removeAttribute('src');
       }
     }
 
