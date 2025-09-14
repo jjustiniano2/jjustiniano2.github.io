@@ -12,7 +12,7 @@ site_theme               : "air" # Currently available options are "default", "a
 title                    : "Jorge Justiniano"
 title_separator          : "-"
 name                     : &name "Jorge Justiniano"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Jorge Justiniano's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://jjustiniano2.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -356,6 +356,7 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
 
 
 
