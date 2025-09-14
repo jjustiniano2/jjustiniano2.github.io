@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Jorge Justiniano"
   pronouns         : # example: "she/her"  
-  bio              : "GenAI Consultant Specialist @RolandBerger | Math PhD Candidate @UniBonn: Optimal Transport, Computer Vision, Financial Mathematics, Machine Learning"
+  bio              : "GenAI Consultant Specialist @RolandBerger | Math PhD Candidate @UniBonn: Optimal Transport, Computer Vision, Financial Mathematics, Machine Learning, Data Science"
   location         : "Bonn, Germany"
   employer         : "University of Bonn"
   uri              : # URL
@@ -356,6 +356,7 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
 
 
 
