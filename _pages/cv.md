@@ -9,13 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
-
-Work experience
+Professional experience
 ======
 * Spring 2024: Academic Pages Collaborator
   * GitHub University
@@ -31,7 +25,15 @@ Work experience
   * GitHub University
   * Duties included: Tagging issues
   * Supervisor: Professor Git
-  
+
+Education
+======
+* Ph.D. in Mathematics | University of Bonn | Mar 2022 – Present
+* M.Sc. in Mathematics | University of Bonn | Grade: 1.1 | Oct 2016 – Dec 2019
+* B.Sc. in Mathematics | LMU Munich | Grade: 1.0 | Apr 2015 – Aug 2016
+* B.Sc. in Physics | LMU Munich | Grade: 1.0 | Oct 2011 – Mar 2015
+* International Baccalaureate | Deutsche Schule Santa Cruz | Grade: 1.1 | Jan 2009 – Feb 2011
+
 Skills
 ======
 * Skill 1
@@ -62,3 +64,4 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+
