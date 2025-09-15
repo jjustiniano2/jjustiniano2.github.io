@@ -220,7 +220,7 @@ kramdown:
 collections:
   teaching:
     output: false
-    permalink: /:collection/:path/
+    #permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
@@ -356,6 +356,7 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
 
 
 
