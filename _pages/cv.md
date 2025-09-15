@@ -28,11 +28,11 @@ Professional experience
 
 Education
 ======
-* Ph.D. in Mathematics | University of Bonn | Mar 2022 – Present
-* M.Sc. in Mathematics | University of Bonn | Grade: 1.1 | Oct 2016 – Dec 2019
-* B.Sc. in Mathematics | LMU Munich | Grade: 1.0 | Apr 2015 – Aug 2016
-* B.Sc. in Physics | LMU Munich | Grade: 1.0 | Oct 2011 – Mar 2015
-* International Baccalaureate | Deutsche Schule Santa Cruz | Grade: 1.1 | Jan 2009 – Feb 2011
+* Ph.D. in Mathematics, University of Bonn, Mar 2022 – Present
+* M.Sc. in Mathematics, University of Bonn, Grade: 1.1, Oct 2016 – Dec 2019
+* B.Sc. in Mathematics, LMU Munich, Grade: 1.0, Apr 2015 – Aug 2016
+* B.Sc. in Physics, LMU Munich, Grade: 1.0, Oct 2011 – Mar 2015
+* International Baccalaureate, Deutsche Schule Santa Cruz, Grade: 1.1, Jan 2009 – Feb 2011
 
 Skills
 ======
@@ -64,4 +64,5 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+
 
