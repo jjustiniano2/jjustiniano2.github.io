@@ -36,12 +36,33 @@ Education
 
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming/AI
+  * Python (Pytorch, TensorFlow, keras, scikit-learn)
+  * R
+  * C++
+  * VBA
+  * LangGraph
+* Data Analysis
+  * SQL
+  * Stata
+  * SPSS
+  * Matlab
+* Office Suite
+  * Excel
+  * PowerPoint
+  * Word
+* Cloud Platforms
+  * AWS (SageMaker, Athena)
+  * Azure (Databricks)
+* Misc. Tools
+  * LaTeX
+  * Git
+* Languages
+  * Spanish (native)
+  * English (C2)
+  * German (C2)
+  * Portuguese (B2)
+  * Frehcn (B1)
 
 Publications
 ======
@@ -63,7 +84,9 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Member of the Förderkreis der Bürgerstiftung Bonn; Freundeskreis Botanische Gärten Bonn
+* Wikipedia Editor and Contributor
+
 
 
 
