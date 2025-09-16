@@ -7,13 +7,57 @@
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script"></script>
 
 <!-- Support for Plotly -->
-<script defer src='https://cdnjs.cloudflare.com/ajax/libs/plotly.js/3.0.1/plotly.min.js'></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/3.0.1/plotly.min.js"></script>
 
 <!-- Support for Mermaid -->
 <script type="module">
-    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-    mermaid.initialize({startOnLoad:true, theme:'default'});
-    await mermaid.run({querySelector:'code.language-mermaid'});
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true, theme: 'default' });
+  await mermaid.run({ querySelector: 'code.language-mermaid' });
 </script>
+
+<!-- BibTeX toggle logic (step 5) -->
+<script>
+  // Delegated click handler for any .bibtex-toggle button
+  document.addEventListener('click', function (e) {
+    const btn = e.target.closest('.bibtex-toggle');
+    if (!btn) return;
+
+    const targetId = btn.dataset.target;
+    const panel = document.getElementById(targetId);
+    if (!panel) return;
+
+    const url = btn.dataset.url;
+    const codeEl = panel.querySelector('code');
+
+    // Fetch the .bib only once per panel if a URL is provided
+    if (url && !panel.dataset.loaded) {
+      fetch(url, { cache: 'no-store' })
+        .then(function (r) { return r.text(); })
+        .then(function (txt) {
+          codeEl.textContent = txt;
+          panel.dataset.loaded = '1';
+        })
+        .catch(function () {
+          codeEl.textContent = 'Failed to load BibTeX.';
+        });
+    }
+
+    // Toggle visibility
+    panel.hidden = !panel.hidden;
+  });
+</script>
+
+<!-- Minimal styling for the inline BibTeX panel -->
+<style>
+  .bibtex-block {
+    margin-top: 0.75rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    background: #f8fafc;
+  }
+  .bibtex-block pre { margin: 0; white-space: pre-wrap; }
+</style>
 
 <!-- end custom footer snippets -->
