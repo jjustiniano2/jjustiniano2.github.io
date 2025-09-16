@@ -1,11 +1,11 @@
 ---
-title: "Splines for Image Metamorphosis"
+title: "Entropy-Regularized Optimal Transport in Information Design"
 collection: publications
 category: conferences
 permalink: /publication/powerdiagrams
-excerpt: 'Justiniano, Jorge, Marko Rajković, and Martin Rumpf. "Splines for Image Metamorphosis." International Conference on Scale Space and Variational Methods in Computer Vision. Cham: Springer International Publishing, 2021.'
-doi: 'https://doi.org/10.1007/978-3-030-75549-2_37'
-bibtexurl: '/files/10.1007_978-3-030-75549-2_37-citation.bib'
+excerpt: 'Jorge Justiniano, Andreas Kleiner, Benny Moldovanu, Martin Rumpf, and Philipp Strack. 2025. Entropy-Regularized Optimal Transport in Information Design. Proceedings of the 26th ACM Conference on Economics and Computation. Association for Computing Machinery, New York, NY, USA, 741–760. https://doi.org/10.1145/3736252.3742617'
+doi: 'https://doi.org/10.1145/3736252.3742617'
+bibtexurl: '/files/acm_3736252.3742617.bib'
 ---
 
 
