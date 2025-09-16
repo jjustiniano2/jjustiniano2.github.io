@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/wasserstein_splines
 excerpt: 'Justiniano, Jorge, Marko Rajković, and Martin Rumpf. "Consistent approximation of interpolating splines in image metamorphosis." Journal of Mathematical Imaging and Vision 65.1 (2023): 29-52.'
-paperurl: 'https://arxiv.org/pdf/2108.00731'
+paperurl: 'https://arxiv.org/pdf/2302.10682'
 doi: 'https://doi.org/10.1051/cocv/2024008'
 bibtexurl: '/files/wasserstein_citation.bib'
 ---
