@@ -37,20 +37,11 @@ Education
 Skills
 ======
 * Programming/AI
-  * Python (Pytorch, TensorFlow, keras, scikit-learn)
-  * R
-  * C++
-  * VBA
-  * LangGraph
+  * Python (Pytorch, TensorFlow, keras, scikit-learn), R, C++, VBA, LangGraph
 * Data Analysis
-  * SQL
-  * Stata
-  * SPSS
-  * Matlab
+  * SQL, Stata, SPSS, Matlab
 * Office Suite
-  * Excel
-  * PowerPoint
-  * Word
+  * Excel, PowerPoint, Word
 * Cloud Platforms
   * AWS (SageMaker, Athena)
   * Azure (Databricks)
@@ -86,6 +77,7 @@ Service and leadership
 ======
 * Member of the Förderkreis der Bürgerstiftung Bonn; Freundeskreis Botanische Gärten Bonn
 * Wikipedia Editor and Contributor
+
 
 
 
