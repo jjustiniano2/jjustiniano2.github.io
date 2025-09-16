@@ -1,12 +1,14 @@
 ---
 title: "Consistent approximation of interpolating splines in image metamorphosis"
 collection: publications
-category: conferences
+category: manuscripts
 permalink: /publication/splines_metamorphosis2
 excerpt: 'Justiniano, Jorge, Marko Rajković, and Martin Rumpf. "Consistent approximation of interpolating splines in image metamorphosis." Journal of Mathematical Imaging and Vision 65.1 (2023): 29-52.'
-doi: 'https://doi.org/10.1007/978-3-030-75549-2_37'
-bibtexurl: '/files/10.1007_978-3-030-75549-2_37-citation.bib'
+paperurl: 'https://arxiv.org/pdf/2108.00731'
+doi: 'https://doi.org/10.1007/s10851-022-01128-5'
+bibtexurl: '/files/justiniano2023consistent.bib'
 ---
 
 
-We link linear prediction of Chebyshev and Fourier expansions to analytic continuation. We push the resolution in the Chebyshev-based computation of $$T=0$$ many-body spectral functions to a much higher precision by deriving a modified Chebyshev series expansion that allows to reduce the expansion order by a factor $$\sim\frac{1}{6}$$.  We show that in a certain limit the Chebyshev technique becomes equivalent to computing spectral functions via time evolution and subsequent Fourier transform. This introduces a novel recursive time evolution algorithm that instead of the group operator $$e^{-iHt}$$ only involves the action of the generator $$H$$. For quantum impurity problems, we introduce an adapted discretization scheme for the bath spectral function. We discuss the relevance of these results for matrix product state (MPS) based DMRG-type algorithms, and their use within dynamical mean-field theory (DMFT). We present strong evidence that the Chebyshev recursion extracts less spectral information from $$H$$ than time evolution algorithms when fixing a given amount of created entanglement.
+This paper investigates a variational model for splines in the image metamorphosis model for the smooth interpolation of key frames in the space of images. The Riemannian manifold of images based on the metamorphosis model defines shortest geodesic paths interpolating two images as minimizers of the path energy which measures the viscous dissipation caused by the motion field and dissipation caused by the material derivative of the image intensity along motion paths. In this paper, we aim at smooth interpolation of multiple key frame images picking up the general observation of cubic splines in Euclidean space which minimize the squared acceleration along the interpolation path. To this end, we propose the spline functional which combines quadratic functionals of the Eulerian motion acceleration and of the second material derivative of the image intensity as the proper notion of image intensity acceleration. We propose a variational time discretization of this model and study the convergence to a suitably relaxed time continuous model via 
+$$\Gamma$$-convergence methodology. As a byproduct, this also allows to establish the existence of metamorphosis splines for given key frame images as minimizers of the time continuous spline functional. The time discretization is complemented by effective spatial discretization based on finite differences and a stable B-spline interpolation of deformed quantities. A variety of numerical examples demonstrates the robustness and versatility of the proposed method in applications. For the minimization of the fully discrete energy functional, a variant of the iPALM algorithm is used.
