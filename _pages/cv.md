@@ -62,7 +62,7 @@ Skills
   * English (C2)
   * German (C2)
   * Portuguese (B2)
-  * Frehcn (B1)
+  * French (B1)
 
 Publications
 ======
@@ -86,6 +86,7 @@ Service and leadership
 ======
 * Member of the Förderkreis der Bürgerstiftung Bonn; Freundeskreis Botanische Gärten Bonn
 * Wikipedia Editor and Contributor
+
 
 
 
