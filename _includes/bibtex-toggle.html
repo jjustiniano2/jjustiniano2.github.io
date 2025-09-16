@@ -1,0 +1,26 @@
+{% comment %}
+Reusable BibTeX toggle.
+Usage:
+  {% include bibtex-toggle.html id=post.id content=post.bibtex url=post.bibtexurl %}
+or on single pages:
+  {% include bibtex-toggle.html id=page.id content=page.bibtex url=page.bibtexurl %}
+{% endcomment %}
+
+{% assign _id = include.id | default: include.title | default: "bibtex" | slugify %}
+<a class="btn btn--primary bibtex-toggle"
+   data-target="bibtex-{{ _id }}"
+   {% if include.url %}data-url="{{ include.url | relative_url }}"{% endif %}>
+  BibTeX
+</a>
+
+<div id="bibtex-{{ _id }}" class="bibtex-block" hidden>
+  <pre><code class="language-bibtex">
+{% if include.content %}
+{{ include.content | escape }}
+{% elsif include.url %}
+Loading…
+{% else %}
+No BibTeX provided.
+{% endif %}
+  </code></pre>
+</div>
