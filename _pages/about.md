@@ -11,4 +11,5 @@ Welcome! I'm Jorge, an applied mathematician (PhD candidate, University of Bonn)
 
 These days I work as a consultant at Roland Berger, specializing in GenAI. I help teams and clients create models that directly affect their bottom line, develop clean evaluation pipelines, and implement agent-assisted workflows that save hours (not minutes). I’m happiest working end-to-end—Python/C++ and PyTorch/TensorFlow for modeling and deep learning, SQL for database management, LangGraph for agent workflows, and AWS/Azure for deployment. I care about readable code, tests that catch silly bugs, and documentations that your future self will thank you for. I speak Spanish (native), English, and German, and I enjoy turning complex ideas into clear, useful tools.
 
-I enjoy spending my free time outdoors, either hiking or playing any racquet sports.
+I enjoy spending my free time outdoors, either biking, hiking or playing any racquet sports.
+
