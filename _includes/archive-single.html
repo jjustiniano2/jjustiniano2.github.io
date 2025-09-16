@@ -57,7 +57,7 @@
     {% elsif post.citation and post.paperurl and post.slidesurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">arXiv</a> | <a href="{{ post.slidesurl }}">Slides</a></p>
     {% elsif post.citation and post.paperurl and post.doi and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">arXiv</a> | <a href="{{ post.doi }}">DOI</a></p> | <a href="{{ post.bibtexurl }}">BibTeX</a></p>
+      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">arXiv</a> | <a href="{{ post.doi }}">DOI</a> | <a href="{{ post.bibtexurl }}">BibTeX</a></p>
     {% elsif post.citation and post.paperurl and post.bibtexurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">arXiv</a> | <a href="{{ post.bibtexurl }}">BibTeX</a></p>
     {% elsif post.citation and post.paperurl %}
@@ -71,7 +71,7 @@
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }}</p>
     {% elsif post.paperurl and post.doi and post.bibtexurl %}
-      <p><a href=" {{ post.paperurl }} ">arXiv</a> | <a href="{{ post.doi }}">DOI</a></p> | <a href="{{ post.bibtexurl }}">BibTeX</a></p>
+      <p><a href=" {{ post.paperurl }} ">arXiv</a> | <a href="{{ post.doi }}">DOI</a> | <a href="{{ post.bibtexurl }}">BibTeX</a></p>
     {% elsif post.paperurl and post.bibtexurl %}
       <p><a href=" {{ post.paperurl }} ">arXiv</a> | <a href="{{ post.bibtexurl }}">BibTeX</a></p>
     {% elsif post.paperurl %}
@@ -86,5 +86,6 @@
 
   </article>
 </div>
+
 
 
