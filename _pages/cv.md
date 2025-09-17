@@ -36,18 +36,12 @@ Education
 
 Skills
 ======
-* Programming/AI
-  * Python (Pytorch, TensorFlow, keras, scikit-learn), R, C++, VBA, LangGraph
-* Data Analysis
-  * SQL, Stata, SPSS, Matlab
-* Office Suite
-  * Excel, PowerPoint, Word
-* Cloud Platforms
-  * AWS (SageMaker, Athena), Azure (Databricks)
-* Misc. Tools
-  * LaTeX, Git
-* Languages
-  * Spanish (native), English (C2), German (C2), Portuguese (B2), French (B1)
+* <strong>Programming/AI:</strong>: Python (Pytorch, TensorFlow, keras, scikit-learn), R, C++, VBA, LangGraph
+* <strong>Data Analysis:</strong> SQL, Stata, SPSS, Matlab
+* <strong>Office Suite:</strong> Excel, PowerPoint, Word
+* <strong>Cloud Platforms:</strong> AWS (SageMaker, Athena), Azure (Databricks)
+* <strong>Misc. Tools:</strong> LaTeX, Git
+* <strong>Languages:</strong> Spanish (native), English (C2), German (C2), Portuguese (B2), French (B1)
 
 Publications
 ======
@@ -71,6 +65,7 @@ Service and leadership
 ======
 * Member of the Förderkreis der Bürgerstiftung Bonn; Freundeskreis Botanische Gärten Bonn
 * Wikipedia Editor and Contributor
+
 
 
 
