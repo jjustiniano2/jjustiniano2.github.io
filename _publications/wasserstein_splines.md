@@ -3,7 +3,7 @@ title: "Approximation of splines in Wasserstein spaces"
 collection: publications
 category: manuscripts
 permalink: /publication/wasserstein_splines
-excerpt: 'Justiniano, Jorge, Marko Rajković, and Martin Rumpf. "Consistent approximation of interpolating splines in image metamorphosis." Journal of Mathematical Imaging and Vision 65.1 (2023): 29-52.'
+excerpt: 'Justiniano, Jorge, Martin Rumpf, and Matthias Erbar. "Approximation of splines in Wasserstein spaces." ESAIM: Control, Optimisation and Calculus of Variations 30 (2024): 64.'
 paperurl: 'https://arxiv.org/pdf/2302.10682'
 doi: 'https://doi.org/10.1051/cocv/2024008'
 bibtexurl: '/files/wasserstein_citation.bib'
