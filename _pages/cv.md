@@ -11,19 +11,19 @@ redirect_from:
 
 Professional experience
 ======
-* <strong>Consultant Specialist | Roland Berger GmbH, Munich</strong>      Apr 2025 – Present
+* <strong>Consultant Specialist | Roland Berger GmbH, Munich</strong>   |   Apr 2025 – Present
   * Supported a pricing optimization project for a leading hardware retail chain, collaborating with cross-functional international teams to deliver pricing strategies projected to yield multi-million dollar annual gains by conducting market research, benchmarking competitors, analysing historical pricing data and designing stakeholder-facing reports and dashboards.
   * Implemented a product & innovation discovery project for a multi-billion consumer-packaged goods company, based on agentic AI digital twins, leading to a dramatic increase in key customer insights obtained from market research.
     
-* <strong>Associate Consultant | Simon Kucher & Partners, Cologne</strong>      Jan 2025 - Mar 2025
+* <strong>Associate Consultant | Simon Kucher & Partners, Cologne</strong>   |   Jan 2025 - Mar 2025
   * Delivered a customer value management project for a major European telecom by performing client segmentation and modeling retention drivers through Bayesian churn-risk models.
   * Developed pricing elasticity models and executive-ready visualizations for a global travel company.
 
-* <strong>Research & Data Scientist | Institute for Numerical Simulation, Bonn</strong>      Mar 2020 - Jan 2025
+* <strong>Research & Data Scientist | Institute for Numerical Simulation, Bonn</strong>  |    Mar 2020 - Jan 2025
   * Contributed to a research project on geometric and stochastic analysis in computer vision and financial mathematics.
   * Led a cross-disciplinary project with Yale economists; built optimal-transport and statistical models that improved market/pricing simulations, leading to theoretical revenue gains of around 10%.
 
-* <strong>Intern in Actuarial Asset Management | ERGO Insurance Group, Düsseldorf</strong>      Feb 2019 - Apr 2019
+* <strong>Intern in Actuarial Asset Management | ERGO Insurance Group, Düsseldorf</strong>   |   Feb 2019 - Apr 2019
   * Built actuarial calculators for premium/reserve computation.
   * Created Monte-Carlo-based risk models for insurance portfolio acquisitions.
 
@@ -66,6 +66,7 @@ Service and leadership
 ======
 * Member of the Förderkreis der Bürgerstiftung Bonn; Freundeskreis Botanische Gärten Bonn
 * Wikipedia Editor and Contributor
+
 
 
 
