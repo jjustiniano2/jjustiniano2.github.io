@@ -11,7 +11,7 @@ redirect_from:
 
 Professional experience
 ======
-* <strong>Consultant Specialist | Roland Berger GmbH, Munich</strong>   |   Apr 2025 – Present
+* <strong>Consultant Specialist | Roland Berger GmbH, Munich | Apr 2025 – Present </strong>
   * Supported a pricing optimization project for a leading hardware retail chain, collaborating with cross-functional international teams to deliver pricing strategies projected to yield multi-million dollar annual gains by conducting market research, benchmarking competitors, analysing historical pricing data and designing stakeholder-facing reports and dashboards.
   * Implemented a product & innovation discovery project for a multi-billion consumer-packaged goods company, based on agentic AI digital twins, leading to a dramatic increase in key customer insights obtained from market research.
     
@@ -66,6 +66,7 @@ Service and leadership
 ======
 * Member of the Förderkreis der Bürgerstiftung Bonn; Freundeskreis Botanische Gärten Bonn
 * Wikipedia Editor and Contributor
+
 
 
 
